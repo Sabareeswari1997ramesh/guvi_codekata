@@ -12,11 +12,11 @@ except ValueError:
 
 else:
 
-	if((x>y)&(x>z)):
+	if((x>=y)&(x>=z)):
 
 		print(x)
 
-	elif((y>x)&(y>z)):
+	elif((y>=x)&(y>=z)):
 
 		print(y)
 

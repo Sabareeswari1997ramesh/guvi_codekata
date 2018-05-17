@@ -7,8 +7,6 @@ except ValueError:
     print("enter valid input")
 
 else:
-    
-y=abs(x)
+    y=abs(x)
     z=str(y)
-
     print(len(z))

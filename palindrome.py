@@ -7,15 +7,16 @@ except ValueError:
     print("Enter the integer only")
 
 else:
+    if(x<=1000):
+        y=str(x)
+        z=y[::-1]
 
-    y=str(x)
+        if(y==z):
 
-    z=y[::-1]
+            print("yes")
 
-    if(y==z):
+        else:
 
-        print("yes")
-
+            print("no")
     else:
-
-        print("no")
+        print("enter the no within the limit")
